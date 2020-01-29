@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.orta{
+    width: 80%;
+    margin:auto;
+}
+#header .logo,#header .menu,
+#header .menu li,
+#header .social-ico,
+#header .social-ico .valute,
+#header .social-ico .user{
+    float: left;
+}
+.clear{clear: both;}
+#header .logo img{
+    width: 100%;
+}
+#header{
+    padding: 15px;
+}
+#header .logo{
+    width: 16%;
+}
+#header .menu{
+    width: 59%;
+    padding-left: 5em;
+}
+#header .social-ico{
+    width: 25%;
+}
+#header .menu li{
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 1.2em;
+}
+#header .drop{
+    position: relative;
+}
+#header .social-ico i,
+#header .social-ico .valute{
+    padding: 15px;
+
+}
+
+#header .drop .dropdown{position: absolute;
+    width: 200px;
+    display: none;
+    list-style: none;
+    background: black;
+    color: white;
+    padding: 15px;
+    list-style: none;
+
+}
+#header .drop:hover .dropdown{
+    display: block;
+}
+#basket{
+    background: url(../photo/sekil1.jpg);
+    padding: 12em 3em;
+    background-size: cover;
+    background-position: center;
+}
+#basket .basket-text{
+    width: 40%;
+}
+#products .product-item img{
+    width: 100%;
+    vertical-align: middle;
+}
+#products .product-item{
+    width: 25%;
+    padding: 15px;
+    float: left;
+
+}#products .product-item .pro-text{
+    background: #f4f4f4;
+    padding: 15px 0;
+}
